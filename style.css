@@ -1,0 +1,131 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+/* .container{
+    flex-direction: row;
+
+} */
+
+.topnav {
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* overflow: hidden; */
+
+  }
+
+.topnav a {
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* float: left; */
+    color: #b17b7b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #d1cece;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: rgb(0, 0, 0);
+}
+
+.stuff{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 160px;
+}
+
+.profile {
+    width: 30%;
+    height: 100%; 
+    float: left;
+    min-width: 150px;
+    margin-top: 1.15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image { 
+    position: static; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 50%;
+}
+
+.image img{
+    width: 100%; 
+    height: auto; 
+}
+
+.information { 
+width: 70%;
+height: 100%;
+float: right;
+margin-top: 1.15%;
+min-width: 20%;
+align-items: center;
+/* margin: 5%; */
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.company{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.time_place{
+    padding-top: 2%;
+    text-align: right;
+
+}
+
+.time{
+    font-size: large;
+}
+.place{
+    font-size: small;
+}
+.test {
+    padding: 10%;
+}
+
+.abt{
+    padding-bottom: 5%;
+}
+/* Style the links inside the navigation bar */
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
